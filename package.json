@@ -1,9 +1,11 @@
 {
   "name": "dice-api",
   "version": "1.0.0",
-  "main": "server.js",
+  "description": "RESTful Dice Roller API for Azure App Service",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js",
+    "dev": "node index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -11,5 +13,13 @@
   },
   "engines": {
     "node": ">=18"
-  }
+  },
+  "keywords": [
+    "azure",
+    "app-service",
+    "dice",
+    "rest-api"
+  ],
+  "author": "Bebopx10",
+  "license": "MIT"
 }
